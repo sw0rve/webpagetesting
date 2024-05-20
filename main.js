@@ -277,7 +277,7 @@ if (reversed == null) { reversed = false; }
 		this.button_6.addEventListener("click", fl_ClickToGoToWebPage_5);
 		
 		function fl_ClickToGoToWebPage_5() {
-			window.open("../blogs/blog2.html", "_parent");
+			window.open("../sw0rve_webpage/blogs/blog2.html", "_parent");
 		}
 	}
 
