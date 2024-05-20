@@ -25,12 +25,6 @@ lib.ssMetadata = [];
 
 
 
-(lib.city = function() {
-	this.initialize(img.city);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,1180,842);
-
-
 (lib.test_button = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -461,13 +455,6 @@ if (reversed == null) { reversed = false; }
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(2));
 
-	// safe_zone
-	this.shape_13 = new cjs.Shape();
-	this.shape_13.graphics.f().s("#FFFFFF").ss(1,1,1).p("EhqtgvzMDVbAAAMAAABfnMjVbAAAg");
-	this.shape_13.setTransform(641,306);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_13).wait(2));
-
 	// logo
 	this.movieClip_2 = new lib.logo_anim();
 	this.movieClip_2.name = "movieClip_2";
@@ -509,28 +496,20 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.button_1}]}).to({state:[{t:this.button_3},{t:this.instance_2},{t:this.button_4},{t:this.instance_1}]},1).wait(1));
 
-	// Layer_3
-	this.shape_14 = new cjs.Shape();
-	this.shape_14.graphics.bf(img.city, null, new cjs.Matrix2D(1.085,0,0,2.432,-640,-1024)).s().p("Ehj/CgAMAAAk//MDH/AAAMAAAE//g");
-	this.shape_14.setTransform(639.975,1041.975);
-
-	this.timeline.addTween(cjs.Tween.get(this.shape_14).wait(2));
-
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(597,129.3,728,1936.7);
+p.nominalBounds = new cjs.Rectangle(665.3,280.8,588.2,115.69999999999999);
 // library properties:
 lib.properties = {
 	id: '6B41238E672D2F418E44C97D76E3ECBD',
 	width: 1280,
-	height: 612,
+	height: 915,
 	fps: 24,
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/city.png?1716087662791", id:"city"},
-		{src:"sounds/_9wav.mp3?1716087662791", id:"_9wav"}
+		{src:"sounds/_9wav.mp3", id:"_9wav"}
 	],
 	preloads: []
 };
