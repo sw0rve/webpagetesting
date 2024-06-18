@@ -569,7 +569,7 @@ if (reversed == null) { reversed = false; }
 		this.button_12.addEventListener("click", fl_ClickToGoToWebPage_16);
 		
 		function fl_ClickToGoToWebPage_16() {
-			window.open("../killmariopage/game.html", "_parent");
+			window.open("../killmario/killmariogame.html", "_parent");
 		}
 		
 		/* Click to Go to Web Page
